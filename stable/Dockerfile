@@ -9,7 +9,7 @@ RUN wget -q http://build.openmodelica.org/apt/openmodelica.asc -O- | sudo apt-ke
 
 # Update index (again) and install OpenModelica 
 RUN apt-get update && apt-get install -y openmodelica omlib-modelica-3.2.3 omlib-modelicareference \
-&& rm -rf /var/lib/apt/lists/*
+&& rm -rf /var/lib/apt/lists/* && apt-get clean 
 
 #RUN apt install omlib-.* # Installs optional Modelica libraries (most have not been tested with OpenModelica)
 
