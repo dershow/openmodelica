@@ -1,10 +1,10 @@
 # openmodelica
 
 Docker files for running OpenModelica with a desktop and novnc.
-Therea are two versions:
+There are two versions:
 stable and nightly
-dersh/om_desktop-stable
-dersh/om_
+dersh/om-desktop-stable
+dersh/om-desktop-nightly
 
 These dockerfiles are based on: accetto/xubuntu-vnc-novnc
 The default password is: headless
